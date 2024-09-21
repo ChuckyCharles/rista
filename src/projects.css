@@ -39,7 +39,14 @@
 .current-projects-content-wrapper {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    row-gap: 1rem;
+}
 
+.cureent-projects-text h5,
+p
+{
+    position: relative;
+    top: 200px;
 }
 
 .past-projects-container {

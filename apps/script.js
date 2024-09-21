@@ -17,7 +17,7 @@ window.onload = ()=>{
     }).to(".inner-back-text",{
        
        opacity: 1,
-       duration: 2.5,
+       duration: 1.5,
        
     }).to(".welcome",{
        
@@ -30,7 +30,7 @@ window.onload = ()=>{
        color: "white",
        height: "100%",
        textAlign : "right",
-       duration: 3,
+       duration: 1,
        opacity: 1
     })
 

@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition-delay: 250ms;
+    transition-duration: 1000ms;
+    line-height: 1.5;
+    transition: 2s;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 body {
-    overflow: hidden;
+    font-family: 'montserrat';
 }
 
 h1 {

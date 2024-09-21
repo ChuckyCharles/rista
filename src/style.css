@@ -4,14 +4,7 @@
     --headerclr:rgb(0, 123, 255);
     --mainclr:#ffcb0f;
 }
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    transition: .2s;
-    font-family: 'Montserrat', sans-serif;
-}
+
 img{filter: brightness(110%) contrast(120%) sepia(0.3) saturate(130%);border-radius: 10px;}
 html{
     scroll-behavior: smooth;

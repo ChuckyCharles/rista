@@ -3,19 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Projects</title>
+    <title>Company Projects | Rista</title>
     <link rel="stylesheet" href="../src/projects.css">
     <link rel="stylesheet" href="../src/globals.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
 </head>
 <body>
+  <section class="load-container">
+    <div class="load">
+      <div></div>
+    </div>
+    <p><small>Loading...<font style="color: yellow;font-weight: bold">RISTA</font></small></p>
+ </section>
+
+<!-- <section class="dimmer"></section> -->
+ <header class="header">
+   <div class="brand-logo-name">
+     <div class="brand-logo">
+       <a href="../index.html#home">
+         <img src="../images/LOGO.png">
+       </a>
+     </div>
+     <div class="brand-name">
+       <h3 style="font-family: 'Yeseva One',serif;">RISTA</h3>
+     </div>
+   </div>
+   <section>
+     <i class="bi bi-list" style="color: white" id="show-btn"></i>
+     <nav class="nav">
+       <div class="nav-header">
+       <div class="flex-sb">
+         <h4>MENU</h4>
+         <i class="bi bi-arrow-right" id="hide-btn"></i>
+       </div>
+         
+         <div class="txt-c">
+           <h1>RISTATRADERS LIMITED</h1>
+           <p><small>No.1 Afforadable & Construction Site - Kenya</small></p>
+         </div>
+       </div>
+       
+       <div class="links">
+         <a href="../index.html#home">Home</a>
+         <a href="./Galley.html">Gallery</a>
+         <a href="./About.html">About Us</a>
+         <a href="./project.html">Projects</a>
+         <a href="./blog.html">Blog</a>
+         <a href="./contact.html">Contact Us</a>
+       </div>
+     </nav>
+     <div class="icon-header">
+         <div id="menu-bar" class="fas fa-bars"></div>
+         <div id="search-bar" class="fas fa-search"></div>
+     </div>
+     <div class="search-form">
+         <input type="search" id="search-form" placeholder="search here">
+     </div>
+   </section>
+ </header>
     <main class="projects-content">
         <div class="main-container">
-            <div class="main-container-header">
-                <h1>PORTFOLIO</h1>
-                <div class="underline"></div>
-            </div>
             <div class="projects-container">
                 <div class="current-projects-container">
+                  <div class="main-container-header">
+                    <h1>PORTFOLIO</h1>
+                    <div class="underline"></div>
+                  </div>
                     <div class="current-projects-header">
                         <h2>Currrent Projects</h2>
                         <div class="underline"></div>
@@ -74,5 +136,93 @@
             </div>
         </div>
     </main>
+    <footer>
+        <h3 style="text-align: center;font-family: 'montserrat';padding: 15px">Rista Traders Limited</h3>
+        <div class="flex-sa">
+        <p style="color: aqua;font-weight: bold"><small>Useful Links</small></p>
+        <span>-</span>
+          <div class="links-f">
+             <a href="res/About.html">About Us</a>
+             <a href="res/contact.html">Reach Us</a>
+             <a href="res/blog.html">Blog</a>
+             <a href="res/Galley.html">Gallery</a>
+          </div>
+        </div>
+        <section class="foot-sect">
+          <div class="mail-icon">
+            <i class="bi bi-envelope-at-fill"></i>
+          </div><br>
+            <div class="newsletter">
+              <input type="text" placeholder="Subscribe To Our Newsletters">
+              <i class="bi bi-arrow-right" style="font-size: 25px"></i>
+            </div>
+        </section>
+        
+        <section class="flexed-footer-elements">
+           <div>
+             <span><b>Helpline Number</b></span>
+              <br>
+              <p><small>+254717675967</small></p>
+              <br>
+              <span><b>Other Numbers</b></span>
+              <p><small>+254746315094<br>+254710378992 <br>+254714757652</small></p>
+           </div>
+           
+           <div>
+             <span><b>Our Services</b></span>
+              <ul>
+                <li>Waterproofing</li>
+                <li>Project Oversight</li>
+                <li>Kitchen Woodwork</li>
+                <li> Mechanical Plans</li>
+              </ul>
+           </div>
+           
+           <div>
+             <span><b>Our Offices</b></span>
+             <p><small>Homa Bay - Rongo Road</small></p>
+           </div>
+           
+           <div>
+             <span><b>About Us</b></span>
+             <p><small>
+  
+  We deliver, <br>top-notch architectural plans<br>Project Management<br>Structural Planning</small></p>
+           </div>
+           
+           <div>
+             <span><b>Why Us</b></span>
+             <ul>
+               <li>Price Friendly</li>
+               <li>Quality Work</li>
+               <li>Experienced Workers</li>
+               <li>Quality Precision</li>
+             </ul>
+           </div>
+        </section>
+          <section style="display:flex;gap: 30px;margin-top: 70px;font-size: 60% !important;line-height: 25px;padding: 25px; font-weight: 500 !important">
+  
+             
+             <div>
+               <span>-</span><br>
+               <span>-</span><br>
+               <span>-</span><br>
+             </div>
+          </section>
+        <section style="text-align: center;margin-top: 50px;">
+           <div>
+              <h3>Follow Us</h3>
+              <div style="font-size: 50px !important">
+                <a href="https://web.facebook.com/profile.php?id=61562507648788" target="_blank"><i class="bi bi-facebook" style="color: blue"></i></a>
+               <a href="https://www.instagram.com/rista_const/" target="_blank"><i class="bi bi-instagram" style="color: indianred"></i></a>
+                <a href="https://x.com/RistaTraders" target="_blank"><i class="bi bi-twitter" style="color: skyblue"></i></a>
+              </div>
+              <p><small>All Rights Reserved | No.1 Quality & Affordable Construction Site</small></p>
+              <p><small>&copy; <span id="year"></span></small></p>
+           </div>
+        </section>
+      </footer>
+      <script src="../apps/script.js"></script>
+      <script src="../apps/current-year.js"></script>
 </body>
 </html>

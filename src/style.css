@@ -49,6 +49,7 @@ html{
 .header{
     padding: 2rem 7%;
     position: fixed;
+    min-height: 10vh;
     left: 0;
     right: 0;
     display: flex;
@@ -59,16 +60,24 @@ html{
     z-index: 20;
     transform: translateY(-500px)
 }
-#logo{
-    color: var(--mainclr);
-    font-size: 30px;    
 
+.brand-logo-name {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 1rem;
+    align-items: center;
 }
 
-#logo img {
+.brand-logo img {
     width: 75px;
 }
-@media screen and (max-width: 480px)
+
+.brand-name h3 {
+    color: var(--mainclr);
+    font-size: 30px;
+}
+
+@media(max-width: 480px)
 {
   .nav 
   { 
@@ -91,8 +100,9 @@ html{
      background: whitesmoke;
      border-radius: 5px;
      margin-top: 3px;
-     color: black;
-     font-weight: 600
+     /* color: black; */
+     font-weight: 600;
+     cursor: pointer;
    }
    .flex-sb{display: flex;justify-content: space-between;padding: 5px;font-size: medium;color: white;}
    .flex-sb i{font-size: 25px}
@@ -116,7 +126,7 @@ html{
     .mobile-vp img{width: 100%;height: 25vh}
 }
 
-@media screen and (min-width: 550px)
+@media(min-width: 550px)
 {
   .txt-c{display: none;}
   .nav-header{display: none;}
@@ -130,10 +140,6 @@ html{
   .links a{color: white;font-size: 19px;text-decoration: none;cursor: none;}
   #show-btn{display: none;}
   
-}
-
-.nav a:hover{
-    color: var(--mainclr);
 }
 .icon-header div{
     color: white;
@@ -174,10 +180,14 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-
 }
+
+.lets-explore{
+    margin-bottom: 20px;
+}
+
 .inner-back-text{
-  margin-top: 70px;
+  margin-top: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -356,6 +366,7 @@ transform: translateY(-25px);
 }
 .inner-service{
     flex: 1 1 300px;
+    box-shadow: 1px 1px 4px rgb(210, 210, 210);
 }
 .inner-service h2{
     padding: 1rem 0;

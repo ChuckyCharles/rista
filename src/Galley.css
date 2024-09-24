@@ -55,7 +55,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
+    background: #273273e1;
     z-index: 20;
     transform: translateY(0)
 }
@@ -225,7 +225,7 @@ html{
 
 footer 
 {
-  background: black;
+  background: #273273e1;
   color: white;
   margin-top: 300px;
   

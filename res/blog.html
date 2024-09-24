@@ -3,58 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RISTATRADERS LTD Blog</title>
+    <title>RISTA TRADERS LTD | Blog</title>
     <link rel="stylesheet" href="../src/blog.css">
+    <link rel="stylesheet" href="../src/globals.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
 </head>
 <body>
+    <section class="load-container">
+        <div class="load">
+          <div></div>
+        </div>
+        <p><small>Loading...<font style="color: yellow;font-weight: bold">RISTA</font></small></p>
+     </section>
+    
+    <!-- <section>
+      <div class="dimmer"></div>
+    </section> -->
+     <header class="header">
+       <div class="brand-logo-name">
+         <div class="brand-logo">
+           <a href="../index.html#home">
+             <img src="../images/LOGO.png">
+           </a>
+         </div>
+         <div class="brand-name">
+           <h3 style="font-family: 'Yeseva One',serif;">RISTA</h3>
+         </div>
+       </div>
+       <section>
+         <i class="bi bi-list" style="color: white" id="show-btn"></i>
+         <nav class="nav">
+           <div class="nav-header">
+           <div class="flex-sb">
+             <h4>MENU</h4>
+             <i class="bi bi-arrow-right" id="hide-btn"></i>
+           </div>
+             
+             <div class="txt-c">
+               <h1>RISTATRADERS LIMITED</h1>
+               <p><small>No.1 Afforadable & Construction Site - Kenya</small></p>
+             </div>
+           </div>
+           
+           <div class="links">
+             <a href="../index.html#home">Home</a>
+             <a href="./Galley.html">Gallery</a>
+             <a href="./About.html">About Us</a>
+             <a href="./project.html">Projects</a>
+             <a href="./blog.html">Blog</a>
+             <a href="./contact.html">Contact Us</a>
+           </div>
+         </nav>
+         <div class="icon-header">
+             <div id="menu-bar" class="fas fa-bars"></div>
+             <div id="search-bar" class="fas fa-search"></div>
+         </div>
+         <div class="search-form">
+             <input type="search" id="search-form" placeholder="search here">
+         </div>
+       </section>
+     </header>
     <main>
-        <section class="blog-post">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSz7bZVValOK_HEm8UIScSCOBoslpugY4OPKjc4dAwc01xP5woHEt4xmhQW6yk" alt="Blog post image">
-            <h2>Project Spotlight: Modern Farmhouse</h2>
-            <p>We are excited to share our latest project, a beautiful modern farmhouse nestled in the countryside. This project was a collaboration between our team of experienced designers and builders, and the result is a stunning home that is both functional and stylish.</p>
-            <p>The home features an open floor plan with plenty of natural light, a gourmet kitchen, and spacious bedrooms. We also incorporated a number of sustainable elements, such as energy-efficient appliances and recycled materials.</p>
-            <p>If you are looking for inspiration for your own dream home, be sure to check out our full project portfolio.</p>
-            <a href="https://www.castlery.com/us/blog/modern-farmhouse-interior-design"> </a>
-        </section>
-        <section class="blog-post">
-            <img src="../images/images.jpg" alt="Blog post image">
-            <h2>Industry Trends: The Rise of Green Building</h2>
-            <p>Green building is becoming increasingly popular as people become more aware of the environmental impact of traditional construction methods. Green building practices focus on reducing energy consumption, water use, and waste generation.</p>
-            <p>There are many benefits to green building, including:</p>
-            <ul>
-                <li>Lower energy bills</li>
-                <li>Reduced environmental impact</li>
-                <li>Improved indoor air quality</li>
-                <li>Increased property value</li>
-            </ul>
-            <p>If you are considering building a new home or renovating your existing one, we encourage you to learn more about green building practices.</p>
-            <p>Image adapted from https://www.castlery.com/us/blog/modern-farmhouse-interior-design</p>
-        </section>
-        <section class="blog-post">
-            <img src="../images/images (1).jpg" alt="Blog post image">
-            <h2>How-To Guide: Painting Your Home</h2>
-            <p>Painting your home is a great way to update its look and feel. However, it can be a daunting task if you have never done it before. This how-to guide will walk you through the steps of painting your home, from choosing the right paint to applying the finishing touches.</p>
-            <p>Here are the materials you will need:</p>
-            <ul>
-                <li>Paint</li>
-                <li>Paint brushes</li>
-                <li>Roller and tray</li>
-                <li>Drop cloths</li>
-                <li>Painter's tape</li>
-            </ul>
-            <p>Once you have gathered your materials, follow these steps:</p>
-            <ol>
-                <li>Prepare the surface by cleaning and sanding.</li>
-                <li>Apply painter's tape to trim and areas you don't want to paint.</li>
-                <li>Pour paint into the roller tray and load the roller.</li>
-                <li>Apply paint to the walls in smooth, even strokes.</li>
-                <li>Let the paint dry completely, then apply a second coat if necessary.</li>
-                <li>Remove the painter's tape and clean up any spills.</li>
-            </ol>
-            <p>With a little care and attention, you can easily paint your home and give it a fresh new look.</p>
+      <section class="blog-heading">
+        <div class="blog-header-container">
+          <div class="heading">
+            <h1>Blogs</h1>
+          </div>
+        </div>
+      </section>
+        <section class="blog-post-section">
+            <div class="blog-post-container">
+                <div class="blog-post">
+                    <div class="blog-post-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSz7bZVValOK_HEm8UIScSCOBoslpugY4OPKjc4dAwc01xP5woHEt4xmhQW6yk" alt="Blog post image">
+                    </div>
+                    <div class="blog-post-text">
+                        <h2>1. Project Spotlight: Modern Farmhouse</h2>
+                        <p>We are excited to share our latest project, a beautiful modern farmhouse nestled in the countryside. This project was a collaboration between our team of experienced designers and builders, and the result is a stunning home that is both functional and stylish.
+                            The home features an open floor plan with plenty of natural light, a gourmet kitchen, and spacious bedrooms. We also incorporated a number of sustainable elements, such as energy-efficient appliances and recycled materials.
+                            If you are looking for inspiration for your own dream home, be sure to check out our full project portfolio.
+                        </p>
+                        <a href="https://www.castlery.com/us/blog/modern-farmhouse-interior-design"> Modern-Farmhouse-Interior-Design</a>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <div class="blog-post-text">
+                        <h2>2. Industry Trends: The Rise of Green Building</h2>
+                        <p>Green building is becoming increasingly popular as people become more aware of the environmental impact of traditional construction methods. Green building practices focus on reducing energy consumption, water use, and waste generation.
+                            There are many benefits to green building, including:
+                        </p>
+                        <ul>
+                            <li>Lower energy bills</li>
+                            <li>Reduced environmental impact</li>
+                            <li>Improved indoor air quality</li>
+                            <li>Increased property value</li>
+                        </ul>
+                        <p>If you are considering building a new home or renovating your existing one, we encourage you to learn more about green building practices.
+                            Image adapted from: https://www.castlery.com/us/blog/modern-farmhouse-interior-design
+                        </p>
+                    </div>
+                    <div class="blog-post-image">
+                        <img src="../images/images.jpg" alt="Blog post image">
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <div class="blog-post-image">
+                        <img src="../images/images (1).jpg" alt="Blog post image">
+                    </div>
+                    <div class="blog-post-text">
+                        <h2>3. How-To Guide: Painting Your Home</h2>
+                        <p>Painting your home is a great way to update its look and feel. However, it can be a daunting task if you have never done it before. This how-to guide will walk you through the steps of painting your home, from choosing the right paint to applying the finishing touches.
+                            Here are the materials you will need:
+                        </p>
+                        <ul>
+                            <li>Paint</li>
+                            <li>Paint brushes</li>
+                            <li>Roller and tray</li>
+                            <li>Drop cloths</li>
+                            <li>Painter's tape</li>
+                        </ul>
+                        <p>Once you have gathered your materials, follow these steps:</p>
+                        <ol>
+                            <li>Prepare the surface by cleaning and sanding.</li>
+                            <li>Apply painter's tape to trim and areas you don't want to paint.</li>
+                            <li>Pour paint into the roller tray and load the roller.</li>
+                            <li>Apply paint to the walls in smooth, even strokes.</li>
+                            <li>Let the paint dry completely, then apply a second coat if necessary.</li>
+                            <li>Remove the painter's tape and clean up any spills.</li>
+                        </ol>
+                        <p>With a little care and attention, you can easily paint your home and give it a fresh new look.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <h3 style="text-align: center;font-family: 'montserrat';padding: 15px">Rista Traders Limited</h3>
+        <div class="flex-sa">
+        <p style="color: aqua;font-weight: bold"><small>Useful Links</small></p>
+        <span>-</span>
+          <div class="links-f">
+             <a href="res/About.html">About Us</a>
+             <a href="res/contact.html">Reach Us</a>
+             <a href="res/blog.html">Blog</a>
+             <a href="res/Galley.html">Gallery</a>
+          </div>
+        </div>
+        <section class="foot-sect">
+          <div class="mail-icon">
+            <i class="bi bi-envelope-at-fill"></i>
+          </div><br>
+            <div class="newsletter">
+              <input type="text" placeholder="Subscribe To Our Newsletters">
+              <i class="bi bi-arrow-right" style="font-size: 25px"></i>
+            </div>
+        </section>
+        
+        <section class="flexed-footer-elements">
+           <div>
+             <span><b>Helpline Number</b></span>
+              <br>
+              <p><small>+254717675967</small></p>
+              <br>
+              <span><b>Other Numbers</b></span>
+              <p><small>+254746315094<br>+254710378992 <br>+254714757652</small></p>
+           </div>
+           
+           <div>
+             <span><b>Our Services</b></span>
+              <ul>
+                <li>Waterproofing</li>
+                <li>Project Oversight</li>
+                <li>Kitchen Woodwork</li>
+                <li> Mechanical Plans</li>
+              </ul>
+           </div>
+           
+           <div>
+             <span><b>Our Offices</b></span>
+             <p><small>Homa Bay - Rongo Road</small></p>
+           </div>
+           
+           <div>
+             <span><b>About Us</b></span>
+             <p><small>
     
+    We deliver, <br>top-notch architectural plans<br>Project Management<br>Structural Planning</small></p>
+           </div>
+           
+           <div>
+             <span><b>Why Us</b></span>
+             <ul>
+               <li>Price Friendly</li>
+               <li>Quality Work</li>
+               <li>Experienced Workers</li>
+               <li>Quality Precision</li>
+             </ul>
+           </div>
+        </section>
+          <section style="display:flex;gap: 30px;margin-top: 70px;font-size: 60% !important;line-height: 25px;padding: 25px; font-weight: 500 !important">
+    
+             
+             <div>
+               <span>-</span><br>
+               <span>-</span><br>
+               <span>-</span><br>
+             </div>
+          </section>
+        <section style="text-align: center;margin-top: 50px;">
+           <div>
+              <h3>Follow Us</h3>
+              <div style="font-size: 50px !important">
+                <a href="https://web.facebook.com/profile.php?id=61562507648788" target="_blank"><i class="bi bi-facebook" style="color: blue"></i></a>
+               <a href="https://www.instagram.com/rista_const/" target="_blank"><i class="bi bi-instagram" style="color: indianred"></i></a>
+                <a href="https://x.com/RistaTraders" target="_blank"><i class="bi bi-twitter" style="color: skyblue"></i></a>
+              </div>
+              <p><small>All Rights Reserved | No.1 Quality & Affordable Construction Site</small></p>
+              <p><small>&copy; <span id="year"></span></small></p>
+           </div>
+        </section>
+      </footer>
+        <script src="../apps/script.js"></script>
+        <script src="../apps/current-year.js"></script>
 </body>
 
 </html>

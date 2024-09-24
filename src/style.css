@@ -13,7 +13,7 @@ html{
 
 .load-container 
 {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: transparent;
   backdrop-filter: blur(50px);
@@ -39,7 +39,7 @@ html{
 }
 .dimmer 
 {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -47,9 +47,9 @@ html{
   z-index: 2;
 }
 .header{
+    width: 100vw;
     padding: 2rem 7%;
     position: fixed;
-    min-height: 10vh;
     left: 0;
     right: 0;
     display: flex;
@@ -469,7 +469,7 @@ transform: translateY(-25px);
 
 footer 
 {
-  background: black;
+  background: #273273e1;
   color: white;
   margin-top: 100px;
   

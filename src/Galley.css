@@ -206,7 +206,13 @@ html{
     width: 100%;
     height: auto;
     transition: transform 0.2s ease-in-out;
-}
+    cursor: pointer;
+  }
+  
+  .projects-content img:hover{
+      scale: 1.1;
+      filter: brightness(75%);
+  }
 
 .image:hover img {
     transform: scale(1.1);
@@ -225,7 +231,7 @@ html{
 
 footer 
 {
-  background: #273273e1;
+  background: black;
   color: white;
   margin-top: 300px;
   

@@ -52,6 +52,7 @@ html{
     position: fixed;
     left: 0;
     right: 0;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -469,7 +470,7 @@ transform: translateY(-25px);
 
 footer 
 {
-  background: #273273e1;
+  background: black;
   color: white;
   margin-top: 100px;
   

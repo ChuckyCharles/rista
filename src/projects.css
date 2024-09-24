@@ -193,6 +193,12 @@ html{
 .projects-content img{
     width: 40vw;
     border-radius: 30px;
+    cursor: pointer;
+}
+
+.projects-content img:hover{
+    scale: 1.1;
+    filter: brightness(75%);
 }
 
 .main-container {
@@ -315,7 +321,7 @@ html{
 
 footer 
 {
-  background: #273273e1;
+    background: black;
   color: white;
   margin-top: 300px;
   

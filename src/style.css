@@ -78,6 +78,10 @@ html{
     font-size: 30px;
 }
 
+@media(max-width: 320px) {
+
+}
+
 @media(max-width: 480px)
 {
   .nav 
@@ -103,7 +107,6 @@ html{
      margin-top: 3px;
      /* color: black; */
      font-weight: 600;
-     cursor: pointer;
    }
    .flex-sb{display: flex;justify-content: space-between;padding: 5px;font-size: medium;color: white;}
    .flex-sb i{font-size: 25px}
@@ -111,7 +114,7 @@ html{
     .nav-header
     {
       width: 100%;
-      height: 35vh;
+      height: 100%;
       background: coral;
     }
     .links{margin-top: 45px}
@@ -184,7 +187,8 @@ html{
 }
 
 .lets-explore{
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 100px;
 }
 
 .inner-back-text{
